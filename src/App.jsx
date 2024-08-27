@@ -5,6 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Index1 from "./pages/Index1";
 import Desktop from "./pages/Desktop";
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/home":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Desktop />} />
+      <Route path="/" element={<Index1 />} />
+      <Route path="/home" element={<Desktop />} />
     </Routes>
   );
 }

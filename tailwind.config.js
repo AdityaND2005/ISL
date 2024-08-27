@@ -17,6 +17,7 @@ module.exports = {
           "200": "#1a1a1a",
           "300": "#151515",
           "400": "#111",
+          "500": "#0b0b0b",
         },
         aliceblue: "rgba(237, 250, 255, 0.5)",
         dimgray: {
@@ -25,22 +26,45 @@ module.exports = {
           "300": "#5d5e5f",
           "400": "#515253",
         },
+        snow: "#fff5f5",
+        white: "#fff",
+        lavenderblush: "#ffefef",
       },
       spacing: {},
       fontFamily: {
         inter: "Inter",
+        "zen-kaku-gothic-new": "'Zen Kaku Gothic New'",
+        "dm-sans": "'DM Sans'",
+        cookie: "Cookie",
       },
     },
     fontSize: {
+      "sm-5": "13.5px",
+      mini: "15px",
+      xl: "20px",
+      base: "16px",
       "45xl": "64px",
       "19xl": "38px",
       "32xl": "51px",
       "5xl": "24px",
+      "109xl": "128px",
+      "13xl": "32px",
+      "29xl": "48px",
+      "10xl": "29px",
       inherit: "inherit",
     },
     screens: {
+      mq1225: {
+        raw: "screen and (max-width: 1225px)",
+      },
+      mq1050: {
+        raw: "screen and (max-width: 1050px)",
+      },
       mq950: {
         raw: "screen and (max-width: 950px)",
+      },
+      mq750: {
+        raw: "screen and (max-width: 750px)",
       },
       mq700: {
         raw: "screen and (max-width: 700px)",
