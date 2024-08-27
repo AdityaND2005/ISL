@@ -18,6 +18,7 @@ module.exports = {
           "300": "#151515",
           "400": "#111",
         },
+        aliceblue: "rgba(237, 250, 255, 0.5)",
         dimgray: {
           "100": "#616263",
           "200": "#5f6061",
@@ -32,20 +33,17 @@ module.exports = {
     },
     fontSize: {
       "45xl": "64px",
-      "32xl": "51px",
       "19xl": "38px",
+      "32xl": "51px",
       "5xl": "24px",
       inherit: "inherit",
     },
     screens: {
-      lg: {
-        max: "1200px",
+      mq950: {
+        raw: "screen and (max-width: 950px)",
       },
-      mq1050: {
-        raw: "screen and (max-width: 1050px)",
-      },
-      mq750: {
-        raw: "screen and (max-width: 750px)",
+      mq700: {
+        raw: "screen and (max-width: 700px)",
       },
       mq450: {
         raw: "screen and (max-width: 450px)",
